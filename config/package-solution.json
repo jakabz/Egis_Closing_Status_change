@@ -1,0 +1,45 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "egis-closing-status-change-client-side-solution",
+    "id": "77d1de65-21ca-4bc3-8f0b-7be482ef981f",
+    "version": "1.0.0.2",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true, 
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "egis-closing-status-change description"
+      },
+      "longDescription": {
+        "default": "egis-closing-status-change description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "0138c1b7-6e36-43e6-a708-a76827d1747e",
+        "version": "1.0.0.2",
+        "assets": {
+          "elementManifests": [
+            "elements2.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/egis-closing-status-change.sppkg"
+  }
+}

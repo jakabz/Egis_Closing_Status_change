@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Field ID="{52887c48-dbac-4b52-a6a5-e5549bdbcc97}"
+            Name="SPFXStatusChange"
+            DisplayName="Status Change"
+            Type="Text"
+            Required="FALSE"
+            Group="SPFx Columns"
+            ClientSideComponentId="1bb94336-0eda-4b5a-ba33-36033bab24de">
+    </Field>
+</Elements>
